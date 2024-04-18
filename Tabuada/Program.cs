@@ -1,6 +1,6 @@
 ﻿//2.Faça um programa que leia um número inteiro positivo e imprima a sua tabuada;
 
-int num_usuario, num, contador = 0, multiplicador2 = 0;
+int num_usuario, num, contador = 0, multiplicador_2 = 0;
 
 Console.WriteLine("Digite um número: ");
 num_usuario = int.Parse(Console.ReadLine());
@@ -15,10 +15,10 @@ else
 {
     while (contador <= 10)
     {
-        int resultado = num * multiplicador2;
-        Console.WriteLine($"{num} * {multiplicador2} = {resultado}");
+        int resultado = num * multiplicador_2;
+        Console.WriteLine($"{num} * {multiplicador_2} = {resultado}");
         contador++;
-        multiplicador2++;
+        multiplicador_2++;
     }
 }
 Console.ReadKey();
